@@ -25,7 +25,7 @@ def envoi(titre,salle,description,date,date_2):
     store = file.Storage('storage.json')
     creds = store.get()
     if not creds or creds.invalid:
-        flow = client.flow_from_clientsecrets('client_secret.json', 
+        flow = client.flow_from_clientsecrets('credentials.json', 
     SCOPES)
         creds = tools.run_flow(flow, store, flags) \
               if flags else tools.run(flow, store)

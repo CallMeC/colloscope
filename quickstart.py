@@ -18,7 +18,7 @@ xl = pd.read_excel(file)    #Lecture du fichier ecel
 
 j_indice, cellule, salle, matiere, description, date, date_2, gu, titre, annee= '', '', '', '', '', '', '', '', 'Colle de ', '2019'
 liste, colle, sem, heure = [], [], [], []
-mois, jour, type_matiere = {'1':'01','2':'02','3':'03','4':'04','5':'05','6':'06','7':'07','8':'08','9':'09','10':'10','11':'11','12':'12',}, {'lun':0,'mar':1,'mer':2,'jeu':3,'ven':4,}, {'maths':[1,14], 'physique':[14,23],'SI':[28,37],'francais':[38,41],'anglais':[42,50]}
+mois, jour, type_matiere = {'1':'01','2':'02','3':'03','4':'04','5':'05','6':'06','7':'07','8':'08','9':'09','10':'10','11':'11','12':'12',}, {'lun':0,'mar':1,'mer':2,'jeu':3,'ven':4,}, {'maths':[1,14], 'physique':[14,23],'SI':[28,37],'francais':[37,42],'anglais':[42,50]}
 heure_d, heure_f, uio, target, inter_debut, inter_fin = 0, 0, 8, 8, 0, 0
 
 

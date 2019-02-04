@@ -4,9 +4,10 @@ Ce proramme permet d'exporter les colles présents sur le document excel vers so
 
 How to :
 Activer l'API Google Agenda :
-  https://developers.google.com/calendar/quickstart/python
+https://developers.google.com/calendar/quickstart/python
+
 Installer la biblioteque de communication Google :
-  pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
 Décommenter la fonction envoi dans TRUC.py pour le premier lancement.
 Lancer le script TRUC.py.

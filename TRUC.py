@@ -49,3 +49,7 @@ def envoi(titre,salle,description,date,date_2):
         Start: %s
         End: %s''' % (e['summary'].encode('utf-8'),
                       e['start']['dateTime'], e['end']['dateTime']))
+
+
+#Decommenter pour le premier lancement
+#envoi('Configuration','Residence Allix',"Ceci est un test d'envoi",'2019-02-10T13:00:00%s','2019-02-10T14:00:00%s')

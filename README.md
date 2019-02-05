@@ -35,4 +35,5 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 
 
 
-Vous pouvez ouvrir le fichier main.py et changer le numero de groupe en mettant le votre.
+Vous pouvez ouvrir le fichier start.py et changer le numero de groupe en mettant le votre.
+Executez ensuite le programme.

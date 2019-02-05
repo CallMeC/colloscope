@@ -15,7 +15,7 @@ Créer un dossier "colloscope" et y mettre tous les fichiers présents sur ce gi
 
 
 Installer Python et PIP :
-
+https://www.python.org/
 https://matthewhorne.me/how-to-install-python-and-pip-on-windows-10/
 
 

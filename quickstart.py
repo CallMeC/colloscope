@@ -1,10 +1,3 @@
-   ________                          __     _    __              __     
-  / ____/ /__  ____ ___  ___  ____  / /_   | |  / /__  _________/ /___ _
- / /   / / _ \/ __ `__ \/ _ \/ __ \/ __/   | | / / _ \/ ___/ __  / __ `/
-/ /___/ /  __/ / / / / /  __/ / / / /_     | |/ /  __/ /  / /_/ / /_/ / 
-\____/_/\___/_/ /_/ /_/\___/_/ /_/\__/     |___/\___/_/   \__,_/\__,_/  
-                                                                
-
 from __future__ import print_function
 from apiclient.discovery import build
 from httplib2 import Http
@@ -90,19 +83,9 @@ def maths(groupe, bool_affichage, bool_envoi, nom_matiere):
             except:
                 ()
     print("")
-
-
-#Pour utliser ce programme, modifiez les parametres de la fonction ci-dessous et executez simplement ce script (Decommenter la fonction ci-dessous)
-#Parameres :
-#   - Numero du groupe [1, 13]
-#   - Logs du proramme; <True> => Afficher;  <False> => Ne pas les afficher
-#   - Si vous voulez envoyer vers votre Google Agenda; <True> => Evoyer; <False> => Ne pas les envoyers
-#   - Matiere à exporter :
-#       - 'maths'
-#       - 'physique'
-#       - 'SI'
-#       - 'francais'
-#       - 'anglais'
-
-
-#maths(10, True, False, 'anglais')
+def export(groupe):
+    maths(groupe, True, True, 'maths')
+    maths(groupe, True, True, 'francais')
+    maths(groupe, True, True, 'SI')
+    maths(groupe, True, True, 'francais')
+    maths(groupe, True, True, 'anglais')

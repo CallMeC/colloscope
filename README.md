@@ -27,7 +27,7 @@ Ouvrez cmd.exe en appuyantsur : Windows + R puis en écrivant 'cmd' puis appuyez
 
 pip install pandas
 
-pip install auth2client
+pip install oauth2client
 
 pip install xlrd
 
